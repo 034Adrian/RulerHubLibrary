@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RulerHubLibrary", "RulerHubLibrary.csproj", "{FDC92E1F-123F-4601-9102-D45E0775005C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestServer", "..\TestServer\TestServer.csproj", "{8C5624F2-D62C-4343-80BF-C18A53F986C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDC92E1F-123F-4601-9102-D45E0775005C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC92E1F-123F-4601-9102-D45E0775005C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC92E1F-123F-4601-9102-D45E0775005C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC92E1F-123F-4601-9102-D45E0775005C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C5624F2-D62C-4343-80BF-C18A53F986C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5624F2-D62C-4343-80BF-C18A53F986C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5624F2-D62C-4343-80BF-C18A53F986C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5624F2-D62C-4343-80BF-C18A53F986C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {757E36F9-7772-4C76-9F90-3172EFE14B62}
+	EndGlobalSection
+EndGlobal

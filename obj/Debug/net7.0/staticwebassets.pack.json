@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\adria\\Documents\\GitHub\\RulerHubClassLibrary\\RulerHubLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RulerHubLibrary.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RulerHubLibrary.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\adria\\Documents\\GitHub\\RulerHubClassLibrary\\RulerHubLibrary\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\adria\\Documents\\GitHub\\RulerHubClassLibrary\\RulerHubLibrary\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.RulerHubLibrary.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.RulerHubLibrary.props",
+      "PackagePath": "build\\RulerHubLibrary.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.RulerHubLibrary.props",
+      "PackagePath": "buildMultiTargeting\\RulerHubLibrary.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.RulerHubLibrary.props",
+      "PackagePath": "buildTransitive\\RulerHubLibrary.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

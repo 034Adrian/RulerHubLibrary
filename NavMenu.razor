@@ -1,0 +1,55 @@
+﻿
+@using Microsoft.AspNetCore.Components.Routing
+@using RulerHubLibrary.Models;
+<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <NavLink class="nav-link navbar-brand navbar-dark dropdown-toggle col-md-3 col-lg-2 me-0 px-3" type="button" id="dropdownMainMenu" data-bs-toggle="dropdown" aria-expanded="false">
+        <svg id="mySvg" width="205" height="50">
+            <text x="0" y="40" fill="blue" font-weight="bold" font-size="45">R</text>
+            <text x="30" y="40" fill="white" font-weight="bold" font-size="45">ulerHub</text>
+            <text x="195" y="40" fill="blue" font-weight="bold" font-size="45">.</text>
+        </svg>
+    </NavLink>
+    <div class="nav-item text-nowrap dropdown-menu dropdown-menu-dark mx-0 shadow" aria-labelledby="dropdownMainMenu" style="width: 300px;">
+        <form class="gap-2 bg-dark border-bottom">
+            <input type="search" class="form-control form-control-dark" autocomplete="true" placeholder="Buscar...">
+        </form>
+        <ul class="list-unstyled mb-0">
+            <li>
+                <NavLink class="dropdown-item d-flex gap-2 align-items-center" href="" Match="NavLinkMatch.All">
+                    <span class="oi oi-home" aria-hidden="true"></span> Home
+                </NavLink>
+            </li>
+            @if (Items != null)
+            {
+                @foreach (NavBarItems I in Items)
+                {
+                    <li>
+                        <NavLink class="dropdown-item d-flex gap-2 align-items-center" href="@I.Ref" Match="NavLinkMatch.All">
+                            <span class="oi @I.OiItem" aria-hidden="true"></span> @I.Label
+                        </NavLink>
+                    </li>
+                }
+            }                          
+            <li>
+                <hr class="dropdown-divider"></li>
+            <li>
+                <NavLink class="dropdown-item d-flex gap-2 align-items-center" href="administrador">
+                    <span class="oi oi-compass" aria-hidden="true"></span> Administrador
+                </NavLink>
+            </li>
+        </ul>
+    </div>
+</header>
+
+@code {
+    List<NavBarItems> Items = new();
+
+    protected override void OnInitialized()
+    {
+        Items.AddRange(new List<NavBarItems>
+        {
+            new NavBarItems { Label = "Productos", Ref = "/productos", OiItem = "oi-cart"},
+            new NavBarItems { Label = "ToDo", Ref = "/todo", OiItem = "oi-check"},
+        });     
+    }
+}

@@ -1,0 +1,87 @@
+﻿@if (Show)
+{
+    <div class="row">
+        <div class="col-md-6 card-deck">
+            <div class="card">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('@PictLink');">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 card-desc">
+                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">@ProductName</h2>
+                        <p>@ProductDescription</p>
+                        <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                                <span>Galeria</span>
+                            </li>
+                            <li class="me-auto">
+                                <spam>@Price</spam>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    Agregar Producto
+                </div>
+                <div class="card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <input type="text" class="form-control" placeholder="ProductName" @bind="NewName" aria-label="ProductName" aria-describedby="basic-addon1">
+                        </li>
+                        <li class="list-group-item">
+                            <input type="text" class="form-control" placeholder="ProductDescription" @bind="NewDescription" aria-label="ProductDescription" aria-describedby="basic-addon1">
+                        </li>
+                        <li class="list-group-item">
+                            <input type="text" class="form-control" placeholder="ProductPict" @bind="NewPict" aria-label="ProductPict" aria-describedby="basic-addon1">
+                        </li>
+                        <li class="list-group-item">
+                            <input type="text" class="form-control" placeholder="ProductPrice" @bind="NewPrice" aria-label="ProductPrice" aria-describedby="basic-addon1">
+                        </li>
+                    </ul>
+                    <a class="btn btn-primary" @onclick="AddProduct">|+|</a>
+                    <a class="btn btn-primary" @onclick="SaveProduct">[+]</a>
+                </div>
+                <div class="card-footer text-muted">
+                    <label>@DateTime.Now</label>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public bool Show { get; set; }
+
+    [Parameter]
+    public string PictLink { get; set; } = null!;
+    [Parameter]
+    public string ProductName { get; set; } = null!;
+    [Parameter]
+    public string ProductDescription { get; set; } = null!;
+    [Parameter]
+    public double Price { get; set; }
+
+    [Parameter]
+    public string NewPict { get; set; } = null!;
+    [Parameter]
+    public string NewName { get; set; } = null!;
+    [Parameter]
+    public string NewDescription { get; set; } = null!;
+    [Parameter]
+    public double NewPrice { get; set; }
+
+    [Parameter]
+    public RenderFragment ChildContent { get; set; } = null!;
+
+    public void AddProduct()
+    {
+        PictLink = NewPict;
+        ProductName = NewName;
+        ProductDescription = NewDescription;
+        Price = NewPrice;
+    }
+    [Parameter]
+    public EventCallback SaveProduct { get; set; }
+}

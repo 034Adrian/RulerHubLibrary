@@ -1,0 +1,91 @@
+/* _content/RulerHubLibrary/Component1.razor.rz.scp.css */
+.my-component[b-zhudtdvkik] {
+    border: 2px dashed red;
+    padding: 1em;
+    margin: 1em 0;
+    background-image: url('background.png');
+}
+/* _content/RulerHubLibrary/EditProduct.razor.rz.scp.css */
+.rounded-4[b-buytlulrei] {
+    border-radius: .5rem;
+}
+
+.rounded-5[b-buytlulrei] {
+    border-radius: 1rem;
+}
+
+.text-shadow-1[b-buytlulrei] {
+    text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25);
+}
+
+.text-shadow-2[b-buytlulrei] {
+    text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25);
+}
+
+.text-shadow-3[b-buytlulrei] {
+    text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25);
+}
+
+.card-cover[b-buytlulrei] {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.card-desc[b-buytlulrei] {
+    background: linear-gradient(rgba(0,0,0,0) 30%, rgba(0,0,0,0.7) 80%);
+    cursor: pointer;
+    text-shadow: 0 3px 3px rgba(0,0,0,1);
+}
+
+#mySvg text:nth-child(n+2)[b-buytlulrei] {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+
+#mySvg:hover text:nth-child(n+2)[b-buytlulrei] {
+    opacity: 1;
+}
+/* _content/RulerHubLibrary/NavMenu.razor.rz.scp.css */
+.navbar .form-control[b-8vtgrtabrw] {
+    padding: .75rem 1rem;
+    border-width: 0;
+    border-radius: 0;
+}
+
+.form-control-dark[b-8vtgrtabrw] {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+}
+
+    .form-control-dark:focus[b-8vtgrtabrw] {
+        border-color: transparent;
+        box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+    }
+/* _content/RulerHubLibrary/ProductCard.razor.rz.scp.css */
+.rounded-4[b-b290ibu965] { border-radius: .5rem; }
+.rounded-5[b-b290ibu965] { border-radius: 1rem; }
+
+.text-shadow-1[b-b290ibu965] { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2[b-b290ibu965] { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3[b-b290ibu965] { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+.card-cover[b-b290ibu965] {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+.card-desc[b-b290ibu965] {
+      background: linear-gradient(rgba(0,0,0,0) 30%, rgba(0,0,0,0.7) 80%);
+      cursor: pointer;
+      text-shadow: 0 3px 3px rgba(0,0,0,1);
+  }
+#mySvg text:nth-child(n+2)[b-b290ibu965] {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+
+#mySvg:hover text:nth-child(n+2)[b-b290ibu965] {
+    opacity: 1;
+}

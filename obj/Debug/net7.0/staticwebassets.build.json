@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "JmXnUIppHtTQ8TQ9uDAmMUTYcPVcRRExaNOj0WhaW8A=",
+  "Source": "RulerHubLibrary",
+  "BasePath": "_content/RulerHubLibrary",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RulerHubLibrary\\wwwroot",
+      "Source": "RulerHubLibrary",
+      "ContentRoot": "C:\\Users\\adria\\Documents\\GitHub\\RulerHubClassLibrary\\RulerHubLibrary\\wwwroot\\",
+      "BasePath": "_content/RulerHubLibrary",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\adria\\Documents\\GitHub\\RulerHubClassLibrary\\RulerHubLibrary\\obj\\Debug\\net7.0\\scopedcss\\bundle\\RulerHubLibrary.styles.css",
+      "SourceId": "RulerHubLibrary",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\adria\\Documents\\GitHub\\RulerHubClassLibrary\\RulerHubLibrary\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/RulerHubLibrary",
+      "RelativePath": "RulerHubLibrary.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\adria\\Documents\\GitHub\\RulerHubClassLibrary\\RulerHubLibrary\\obj\\Debug\\net7.0\\scopedcss\\bundle\\RulerHubLibrary.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\adria\\Documents\\GitHub\\RulerHubClassLibrary\\RulerHubLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RulerHubLibrary.bundle.scp.css",
+      "SourceId": "RulerHubLibrary",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\adria\\Documents\\GitHub\\RulerHubClassLibrary\\RulerHubLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/RulerHubLibrary",
+      "RelativePath": "RulerHubLibrary.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\adria\\Documents\\GitHub\\RulerHubClassLibrary\\RulerHubLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RulerHubLibrary.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\adria\\Documents\\GitHub\\RulerHubClassLibrary\\RulerHubLibrary\\wwwroot\\background.png",
+      "SourceId": "RulerHubLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\adria\\Documents\\GitHub\\RulerHubClassLibrary\\RulerHubLibrary\\wwwroot\\",
+      "BasePath": "_content/RulerHubLibrary",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "C:\\Users\\adria\\Documents\\GitHub\\RulerHubClassLibrary\\RulerHubLibrary\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "RulerHubLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\adria\\Documents\\GitHub\\RulerHubClassLibrary\\RulerHubLibrary\\wwwroot\\",
+      "BasePath": "_content/RulerHubLibrary",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    }
+  ]
+}
