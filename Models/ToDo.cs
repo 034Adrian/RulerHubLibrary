@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace RulerHubLibrary.Models;
 
-namespace RulerHubLibrary.Models
+internal class ToDo
 {
-    internal class ToDo
-    {
-    }
+    public int Id { get; set; }
+    public string Content { get; set; } = null!;
+    public bool IsDone { get; set; }
 }

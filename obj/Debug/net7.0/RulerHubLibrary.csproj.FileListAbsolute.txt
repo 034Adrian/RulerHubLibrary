@@ -1,3 +1,4 @@
+C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\bin\Debug\net7.0\Properties\launchSettings.json
 C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\bin\Debug\net7.0\RulerHubLibrary.staticwebassets.runtime.json
 C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\bin\Debug\net7.0\RulerHubLibrary.deps.json
 C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\bin\Debug\net7.0\RulerHubLibrary.dll
@@ -14,7 +15,9 @@ C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\obj\Debug\n
 C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\obj\Debug\net7.0\scopedcss\Component1.razor.rz.scp.css
+C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\obj\Debug\net7.0\scopedcss\ProductModal.razor.rz.scp.css
+C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\obj\Debug\net7.0\scopedcss\EditProduct.razor.rz.scp.css
+C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\obj\Debug\net7.0\scopedcss\NavMenu.razor.rz.scp.css
 C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\obj\Debug\net7.0\scopedcss\ProductCard.razor.rz.scp.css
 C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\obj\Debug\net7.0\scopedcss\bundle\RulerHubLibrary.styles.css
 C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\obj\Debug\net7.0\scopedcss\projectbundle\RulerHubLibrary.bundle.scp.css
@@ -22,5 +25,4 @@ C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\obj\Debug\n
 C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\obj\Debug\net7.0\refint\RulerHubLibrary.dll
 C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\obj\Debug\net7.0\RulerHubLibrary.pdb
 C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\obj\Debug\net7.0\ref\RulerHubLibrary.dll
-C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\obj\Debug\net7.0\scopedcss\EditProduct.razor.rz.scp.css
-C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\obj\Debug\net7.0\scopedcss\NavMenu.razor.rz.scp.css
+C:\Users\adria\Documents\GitHub\RulerHubClassLibrary\RulerHubLibrary\obj\Debug\net7.0\scopedcss\CheckOutForm.razor.rz.scp.css

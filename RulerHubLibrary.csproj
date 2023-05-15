@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="LogInNeon.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="EditProduct.razor.css" />
     <None Remove="NavMenu.razor.css" />
     <None Remove="ProductCard.razor.css" />
@@ -18,12 +22,21 @@
     <Content Include="ProductCard.razor.css" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+    <None Include="LogInNeon.razor" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <SupportedPlatform Include="browser" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="GitStuff\" />
   </ItemGroup>
 </Project>

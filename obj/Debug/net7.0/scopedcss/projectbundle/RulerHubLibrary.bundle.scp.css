@@ -1,9 +1,6 @@
-/* _content/RulerHubLibrary/Component1.razor.rz.scp.css */
-.my-component[b-zhudtdvkik] {
-    border: 2px dashed red;
-    padding: 1em;
-    margin: 1em 0;
-    background-image: url('background.png');
+/* _content/RulerHubLibrary/CheckOutForm.razor.rz.scp.css */
+.container[b-dcw34lk7lm] {
+    max-width: 960px;
 }
 /* _content/RulerHubLibrary/EditProduct.razor.rz.scp.css */
 .rounded-4[b-buytlulrei] {
@@ -88,4 +85,8 @@
 
 #mySvg:hover text:nth-child(n+2)[b-b290ibu965] {
     opacity: 1;
+}
+/* _content/RulerHubLibrary/ProductModal.razor.rz.scp.css */
+body[b-oy58ollqnx]
+{
 }
